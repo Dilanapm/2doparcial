@@ -1,7 +1,9 @@
+import "./perfil.css";
 export function Perfil() {
   return(
-<div>
-<h1>hola componente</h1>
-</div>
+    <section className="conten">
+        <img src="./public/perfil.jpg" />
+        <h3>burak#0666</h3>
+    </section>
 )
 }
